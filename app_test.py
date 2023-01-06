@@ -21,7 +21,7 @@ elif app_mode=='Predict_ADHD':
     #path = '/Users/marzia'
     #modelname = path + '/adhdmodel.pkl'
     #modelname = 'https://github.com/UmmeMarziaHaque/MH-Streamlit-App/blob/master/adhdmodel.pkl'
-    loaded_model = pickle.load(open('MH_Streamlit_App/adhdmodel.pkl', 'rb'))
+    loaded_model = pickle.load(open('MH_App/adhdmodel.pkl', 'rb'))
 
     st.write("If you want to check if your child or adolescent has ADHD based on this prediction model, please select the answer for the following symptoms.")
 
@@ -156,7 +156,7 @@ elif app_mode=='Predict_OCD':
     #path = '/Users/marzia'
     #modelname = path + '/ocdmodel.pkl'
     #modelname = 'https://github.com/UmmeMarziaHaque/MH-Streamlit-App/blob/master/ocdmodel.pkl'
-    loaded_model = pickle.load(open('MH_Streamlit_App/ocdmodel.pkl', 'rb'))
+    loaded_model = pickle.load(open('MH_App/ocdmodel.pkl', 'rb'))
  
 
 
@@ -289,7 +289,7 @@ elif app_mode=='Predict_SAD':
     #path = '/Users/marzia'
     #modelname = path + '/sadmodel.pkl'
     #modelname = 'https://github.com/UmmeMarziaHaque/MH-Streamlit-App/blob/master/sadmodel.pkl'
-    loaded_model = pickle.load(open('MH_Streamlit_App/sadmodel.pkl', 'rb'))
+    loaded_model = pickle.load(open('MH_App/sadmodel.pkl', 'rb'))
  
  
 
@@ -412,7 +412,7 @@ elif app_mode=='Predict_Depression':
     #path = '/Users/marzia'
     #modelname = path + '/depressionmodel.pkl'
     #modelname = 'https://github.com/UmmeMarziaHaque/MH-Streamlit-App/blob/master/depressionmodel.pkl'
-    loaded_model = pickle.load(open('MH_Streamlit_App/depressionmodel.pkl', 'rb'))
+    loaded_model = pickle.load(open('MH_App/depressionmodel.pkl', 'rb'))
  
  
 
