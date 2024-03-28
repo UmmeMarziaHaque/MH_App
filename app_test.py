@@ -11,9 +11,9 @@ from sklearn.preprocessing import StandardScaler
 app_mode = st.sidebar.selectbox('Select Page',['Home','Predict_ADHD','Predict_OCD','Predict_SAD','Predict_Depression'])
 
 if app_mode=='Home':
-    st.write("Based on the current published journals in Plos One and HIS conference, this web application has been built to predict Attention-deficit/hyperactivity disorder (ADHD) with machine learning algortihms..")
+    st.write("Based on the current published journals in Plos One and HISS journals, this web application has been built to predict depression, OCD, SAD and ADHD with machine learning algortihms..")
 
-    st.write("This app is suitable for 4-17 years children and adolescent. For the parents, caregivers or teachers who are unsure whether their child or adolescent is affected with ADHD or not or whether they should consult regarding this issue with any mental health professional, they can use this app in order to get a primary idea about ADHD,OCD,SAD detection.") 
+    st.write("This app is suitable for 4-17 years children and adolescent. For the parents, caregivers or teachers who are unsure whether their child or adolescent is affected with these mental illnesses or not or whether they should consult regarding this issue with any mental health professional, they can use this app in order to get a primary idea about depression,ADHD,OCD,SAD detection.") 
 
 elif app_mode=='Predict_ADHD':
     
